@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 st.title('Bike Sharing Rental Analysis')
 
 # Load the dataset
-data_hour = pd.read_csv('E:\Project 1 Bangkit\hour.csv')
-data_day = pd.read_csv('E:\Project 1 Bangkit\day.csv')
+data_hour = pd.read_csv('https://raw.githubusercontent.com/arelyia/bike_sharing/refs/heads/main/hour.csv')
+data_day = pd.read_csv('https://raw.githubusercontent.com/arelyia/bike_sharing/refs/heads/main/day.csv')
 # Title for the Streamlit App
 st.title('Bike Sharing Rental Analysis')
 
